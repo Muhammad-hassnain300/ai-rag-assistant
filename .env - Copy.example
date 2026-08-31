@@ -1,0 +1,9 @@
+# Copy this file to .env and put your real key here.
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Keep this URL equal to the Vite frontend URL.
+FRONTEND_ORIGIN=http://localhost:5173
+
+# You can change these model IDs to models available to your OpenAI account.
+EMBEDDING_MODEL=text-embedding-3-small
+CHAT_MODEL=gpt-5.6-luna

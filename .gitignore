@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# RAG data
+backend/data/chroma/
+backend/data/uploads/*
+!backend/data/.gitkeep
+backend/data/documents.json
+backend/data/conversations.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
